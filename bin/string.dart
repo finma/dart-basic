@@ -10,6 +10,11 @@ void main(List<String> args) {
 
   print(text);
 
+  var longText = '''
+  This is a long text
+  This is also a long text
+  '''; // multi-line string
+
   var name1 = firstName + ' ' + lastName; // string concatenation
   var name2 = 'Firman' ' ' 'Maulana'; // string concatenation
 
